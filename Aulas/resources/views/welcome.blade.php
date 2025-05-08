@@ -11,5 +11,7 @@
     </head>
     <body>
         <h1>Olá Mundo!</h1>
+
+        <a href="{{ route('user.create') }}">Cadastrar</a>
     </body>
 </html>

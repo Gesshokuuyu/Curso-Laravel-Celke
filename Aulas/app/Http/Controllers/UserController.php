@@ -6,7 +6,13 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function create(){
-       dd('Formulário'); 
+    public function create()
+    {
+       return view('users.create');  
+    }
+
+    public function store(Request $request) {
+            dd($request);
+        
     }
 }
