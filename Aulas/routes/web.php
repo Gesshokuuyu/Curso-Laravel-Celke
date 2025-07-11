@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('Shinsei');
 
 
 Route::get('/create-user', [UserController::class,'create'])->name('user.create');
