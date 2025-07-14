@@ -16,7 +16,7 @@
                     <a href="{{ route('Shinsei') }}">Shinsei</a>
                 </h2>
                 <ul class='list-nav-link'>
-                    <li><a class='nav-link' href="#">Usuarios</a></li>
+                    <li><a class='nav-link' href="{{ route('user.index') }}">Usuarios</a></li>
                     <li><a class='nav-link' href="{{ route('Shinsei') }}">Sair</a></li>
                 </ul>
             </div>

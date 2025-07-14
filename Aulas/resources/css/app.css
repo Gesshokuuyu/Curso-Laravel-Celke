@@ -82,4 +82,52 @@
         focus:ring-offset-2 focus:ring-blue-500 cursor-pointer;
     }
 
+    .btn-secondary {
+        @apply inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium 
+        rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 
+        focus:ring-offset-2 focus:ring-blue-500 cursor-pointer;
+    }
+
+    .btn-success {
+        @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium 
+        rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 
+        focus:ring-offset-2 focus:ring-green-500 cursor-pointer;
+    }
+    .btn-danger {
+        @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium 
+        rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 
+        focus:ring-offset-2 focus:ring-red-500 cursor-pointer;
+    }
+
+
+    .table {
+        @apply min-w-full divide-y divide-gray-200;
+    }
+    .table-header {
+        @apply bg-gray-50;
+    }
+    .table-row {
+        @apply bg-white hover:bg-gray-50 transition-colors;
+    }
+
+    .table-cell {
+        @apply px-6 py-4 whitespace-nowrap text-sm text-gray-500;
+    }
+
+    .table-row{
+        @apply border-b border-gray-200 hover:bg-blue-50 transition ;
+    }
+    .table-body{
+        @apply text-gray-700 text-sm font-light;   
+    }
+
+    .table-cell {
+        @apply py-3 px-6
+    }
+
+    .table-actions {
+        @apply py-3 px-6 text-center
+    }
+
+
 }
